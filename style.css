@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lobster&family=Neonderthaw&family=Playfair+Display:ital,wght@1,800&display=swap');
+#banner {
+	width:  100vw;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.1)), url(image/velines.png);
+	background-size: cover;
+	font-family: 'Lobster', cursive;
+	background-position: center;
+	text-align: center;
+}
+h1{
+	color: #FF1818;
+	font-size: 45px;
+	font-family: 'Lobster', cursive;
+	padding-top: 40vh;
+	margin: 0;
+}
+#main-subtitle {
+	color: white;
+	text-shadow: #FF0000 6px 0 10px;
+	font-size: 24px;
+}
+#red-button {
+	color: white;
+	font-size:  20px;
+	font-family: 'Lobster', cursive;
+	background-color: #FF0000;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 9px 9px;
+	font-weight: 900;
+}
+#red-button:hover {
+	background-color: #EB596E;
+	transition: all 0.5s ease-out;
+	padding: 10px 20px;
+}
+#subtitle {
+	font-family: 'Lobster', cursive;
+	color: #FF0000 ;
+	font-weight: bold;
+	text-align: center;
+}
+#container {
+	flex-wrap: wrap;
+	display:  flex;
+	justify-content: center;
+}
+.card {
+	background-color: white;
+	width: 228px;
+	height: 350px;
+	box-shadow: 0 0 10px rgb(0,0,0,0.4);
+	border-radius:  10px;
+	padding:  24px;
+	margin:  8px;
+}
+.card:hover {
+	transition: all 0.3s ease-out;
+	padding: 20px 30px;
+}
+.card img {
+	width: 100%;
+	border-radius: 6px;
+	height: 215px;
+	object-fit: cover;
+}
+.card h3 {
+	color: #404042;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+}
+.card p {
+	font-family:  Overpass;
+	color: #404042;
+	font-size: 18px;
+}
+#footer {
+	height:  100px;
+	background-color: #D6E5FA;
+	color: #FF1818 ;
+	vertical-align: middle;
+	padding-top: 5%;
+	margin-top: 40px;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
